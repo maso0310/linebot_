@@ -56,9 +56,7 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     try:
-        #GPT_answer = GPT_response(msg)
-        #print(GPT_answer)
-        if 'Flex' in msg:
+        if 'Flex' in msg:            
             contents = {
                 "type": "carousel",
                 "contents": [
